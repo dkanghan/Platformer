@@ -13,7 +13,9 @@
         android:theme="@style/Theme.Platformer"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".PlatformActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
